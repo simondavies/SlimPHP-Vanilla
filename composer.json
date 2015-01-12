@@ -1,0 +1,26 @@
+{
+  "name":             "simondavies/SlimPHP-Base-App",
+  "description":      "A base Slim PHP starter app, including some extra additions.",
+  "keywords":         ["php", "slim-php", "slim", "laravel", "monolog"],
+  "homepage":         "http://www.simondavies.net",
+  "license":          "MIT",
+  "authors": [
+    {
+      "name":         "Simon Davies",
+      "email":        "simondavies@live.co.uk",
+      "homepage":     "http://www.simondavies.net",
+      "role":         "Web Developer"
+    }
+  ],
+  "require" :{
+    "slim/slim": "~2.5",
+    "slim/views": "0.1.*",
+    "twig/twig": "~1.16",
+    "monolog/monolog": "~1.12",
+    "illuminate/database": "4.2.*",
+    "vlucas/phpdotenv": "~1.1"
+  },
+  "autoload": {
+    "psr-4": {"SimonDavies\\SlimVanilla\\": "App/SimonDavies/SlimVanilla"}
+  }
+}

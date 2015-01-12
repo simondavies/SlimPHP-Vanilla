@@ -1,0 +1,10 @@
+/vendor
+composer.phar
+composer.lock
+.env
+.DS_Store
+Thumbs.db
+.idea/
+workspace.xml
+.idea/vcs.xml
+.idea/workspace.xml
