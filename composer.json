@@ -1,7 +1,7 @@
 {
-  "name":             "simondavies/SlimPHP-Base-App",
-  "description":      "A base Slim PHP starter app, including some extra additions.",
-  "keywords":         ["php", "slim-php", "slim", "laravel", "monolog"],
+  "name":             "simondavies/slimphp-vanilla",
+  "description":      "A simple base app, using the PHP framework PHP Slim at its heart, and using with Laravel's Elequent as its ORM",
+  "keywords":         ["php", "slim-php", "slim", "laravel", "monolog", "framework"],
   "homepage":         "http://www.simondavies.net",
   "license":          "MIT",
   "authors": [
@@ -13,6 +13,7 @@
     }
   ],
   "require" :{
+    "php": ">=5.4",
     "slim/slim": "~2.5",
     "slim/views": "0.1.*",
     "twig/twig": "~1.16",
@@ -20,7 +21,17 @@
     "illuminate/database": "4.2.*",
     "vlucas/phpdotenv": "~1.1"
   },
+  "require-dev": {
+    "phpspec/phpspec": "2.0.*@dev"
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
   "autoload": {
     "psr-4": {"SimonDavies\\SlimVanilla\\": "App/SimonDavies/SlimVanilla"}
-  }
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "minimum-stability": "stable"
 }
