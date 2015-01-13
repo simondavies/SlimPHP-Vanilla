@@ -4,3 +4,12 @@ A simple base app and set up, using the PHP framework [PHP Slim](http://www.slim
 #### To Do's
 * Basically, the first thing to do, is update this file (READ ME) so users can use this repo.
 * Split the view templates it to sub templates etc.
+
+
+## Official Documentation
+
+The following documentation for the Slim framework can be found here: [Slim Documentation](http://docs.slimframework.com/)
+
+### License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
