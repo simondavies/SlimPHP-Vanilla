@@ -10,17 +10,17 @@ A simple base app, using the PHP framework [PHP Slim](http://www.slimframework.c
 Please find the following documentation details for futher reading on the main items used within this app.
 
 ##### Slim PHP
- Slim framework can be found here: [Slim Documentation](http://docs.slimframework.com/)
+ [Slim Documentation](http://docs.slimframework.com/) for further details.
 
 ##### Laravel's Elequent ORM
-Laravels [Elequent ORM](http://laravel.com/docs/4.2/eloquent) current version 4.2
+Laravels [Elequent ORM](http://laravel.com/docs/4.2/eloquent), currently using version 4.2.
 
 
 ##Getting Started
-#####Server settings
-I am using laravels [Homestead](https://github.com/laravel/homestead) VM set up for my developement, more details/documentation can be found at the laravel website [laravel.com](http://laravel.com/docs/4.2/homestead). A great video on the installation and usage of Homestead can be seen at [Laracasts.com](https://laracasts.com/lessons/say-hello-to-laravel-homestead-two)
+#####Server Set Up
+I am using laravels [Homestead](https://github.com/laravel/homestead) VM for my developement, more on this can be found at the laravel website [laravel.com](http://laravel.com/docs/4.2/homestead). A great video on the installation and usage of Homestead can be also seen at [Laracasts.com](https://laracasts.com/lessons/say-hello-to-laravel-homestead-two)
 #####Installation & Set up
-Using composer to then install this repo. For more details on how to set up and install Composer can be found at [getcomposer.org](https://getcomposer.org/)
+I am mainly using composer for the whole install and programming. For more details on how to set up and install Composer can be found at [getcomposer.org](https://getcomposer.org/)
 
 To be continued....
 
@@ -35,7 +35,7 @@ Just a list of people and projects i like to thank on my way...
 
 [Codeguy](https://github.com/codeguy) of the Slim Framework.
 
-Taylor Otwell and the poeple involved in the [Laravel Framework](https://github.com/laravel).
+Taylor Otwell and the people involved in the [Laravel Framework](https://github.com/laravel).
 
 Jeffery Way and his aweasome [Laracasts Tutorials](https://laracasts.com/) website and [Codebase](https://github.com/laracasts).
 
