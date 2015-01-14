@@ -1,5 +1,5 @@
 # SlimPHP Vanilla
-A simple base app, using the PHP framework [PHP Slim](http://www.slimframework.com/) at its heart, and implementing  [Laravel's Elequent](https://github.com/illuminate/database) ORM.
+A simple base app, using the PHP framework [PHP Slim](http://www.slimframework.com/) at its heart, and implementing  [Laravel's Eloquent](https://github.com/illuminate/database) ORM.
 
 #### To Do's
 * Basically, the first thing to do, is update this file (READ ME) so users can use this repo.
@@ -7,13 +7,13 @@ A simple base app, using the PHP framework [PHP Slim](http://www.slimframework.c
 
 
 ## Official Documentation
-Please find the following documentation details for futher reading on the main items used within this app.
+Please find the following documentation details for further reading on the main items used within this app.
 
 ##### Slim PHP
  [Slim Documentation](http://docs.slimframework.com/) for further details.
 
-##### Laravel's Elequent ORM
-Laravels [Elequent ORM](http://laravel.com/docs/4.2/eloquent), currently using version 4.2.
+##### Laravel's Eloquent ORM
+Laravels [Eloquent ORM](http://laravel.com/docs/4.2/eloquent), currently using version 4.2.
 
 
 ##Getting Started
