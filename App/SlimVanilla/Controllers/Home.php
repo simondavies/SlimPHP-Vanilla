@@ -2,25 +2,35 @@
 
 namespace SlimVanilla\Controllers;
 
-use SlimVanilla\Models\Messages as Messages;
+use SlimVanilla\Repositories\MessageRepository as Messages;
 /**
  * Class Home
- * @package SimonDavies\SlimVanilla\Controllers
+ * @package SlimVanilla\Controllers
  */
-class Home extends BaseController{
+class Home extends BaseController {
 
     /**
-     * Default Home Class method
+     * @var
      */
+    protected $message;
+
+    function __construct()
+    {
+        parent::__construct();
+        $this->messages = new Messages();
+    }
+
     public function index(){
-
-        //-- Lets get a list of all set welcome messages
-        $messages = Messages::all();
-        $max_count = $messages->count() - 1;
-        $welcome_message = $messages[rand(0,$max_count)]['message'];
-
-        //-- render the view called
-        $this->app->render('home.php', ['welcome_message'=>$welcome_message]);
+        //- get all the welcome messages
+        $welcomeMessages = $this->messages->getAllWelcomeMessages();
+        //-- get total number of welcome messages returned
+        $max_count = $welcomeMessages->count() - 1;
+        //-- example log call
+        $this->log('Total Welcome messages: ' . $max_count, 'help');
+        //-- build the view passing in a random welcome message to out put
+        $this->view('pages.home',
+            ['welcome_message' => $welcomeMessages[rand(0,$max_count)]['critical']]
+        );
     }
 
 }

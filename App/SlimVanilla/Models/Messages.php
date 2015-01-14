@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model as Model;
 
 /**
  * Class Messages
- * @package SimonDavies\SlimVanilla\Models
+ * @package SlimVanilla\Models
  */
 class Messages extends Model {
 
