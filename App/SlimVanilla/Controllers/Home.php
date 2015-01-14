@@ -26,10 +26,10 @@ class Home extends BaseController {
         //-- get total number of welcome messages returned
         $max_count = $welcomeMessages->count() - 1;
         //-- example log call
-        $this->log('Total Welcome messages: ' . $max_count, 'help');
+        $this->log('Total Welcome messages: ' . $max_count, 'info');
         //-- build the view passing in a random welcome message to out put
         $this->view('pages.home',
-            ['welcome_message' => $welcomeMessages[rand(0,$max_count)]['critical']]
+            ['welcome_message' => $welcomeMessages[rand(0,$max_count)]['message']]
         );
     }
 
