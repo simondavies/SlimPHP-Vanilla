@@ -1,7 +1,7 @@
 {
   "name":             "simondavies/slimphp-vanilla",
-  "description":      "A simple base app, using the PHP framework PHP Slim at its heart featuring Laravel's Elequent ORM",
-  "keywords":         ["php", "slim", "laravel", "framework", "elequent"],
+  "description":      "A simple base app, using the PHP framework Slim at its heart, and implementing Laravel's Eloquent ORM",
+  "keywords":         ["php", "slim", "laravel", "framework", "Eloquent"],
   "homepage":         "https://github.com/simondavies/SlimPHP-Vanilla",
   "license":          "MIT",
   "authors": [
