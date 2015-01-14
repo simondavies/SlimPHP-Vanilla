@@ -1,6 +1,6 @@
 {
   "name":             "simondavies/slimphp-vanilla",
-  "description":      "A simple base app, using the PHP framework PHP Slim at its heart, and using with Laravel's Elequent as its ORM",
+  "description":      "A simple base app, using the PHP framework PHP Slim at its heart featuring Laravel's Elequent ORM",
   "keywords":         ["php", "slim", "laravel", "framework", "elequent"],
   "homepage":         "https://github.com/simondavies/SlimPHP-Vanilla",
   "license":          "MIT",
@@ -9,7 +9,6 @@
       "name":         "Simon Davies",
       "email":        "simondavies@live.co.uk",
       "homepage":     "http://www.simondavies.net",
-      "role":         "Web Developer"
     }
   ],
   "require" :{
@@ -27,7 +26,7 @@
     "phpspec/phpspec": "~2.1"
   },
   "autoload": {
-    "psr-4": {"SimonDavies\\SlimVanilla\\": "App/SimonDavies/SlimVanilla"}
+    "psr-4": {"SlimVanilla\\": "App/SlimVanilla"}
   },
   "config": {
     "preferred-install": "dist",

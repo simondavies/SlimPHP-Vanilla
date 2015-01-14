@@ -3,7 +3,7 @@
  * App Route files
  */
 
-use SimonDavies\SlimVanilla\Controllers\Home as Home;
+use SlimVanilla\Controllers\Home as Home;
 
 //-- Homepage controller
 $app->get('/', function() use ($app) {

@@ -1,6 +1,6 @@
 <?php
 
-namespace SimonDavies\SlimVanilla\Controllers;
+namespace SlimVanilla\Controllers;
 /**
  * Class BaseController
  * @package SimonDavies\SlimVanilla\Controllers

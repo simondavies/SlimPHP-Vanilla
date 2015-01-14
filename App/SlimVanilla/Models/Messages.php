@@ -1,7 +1,7 @@
 <?php
 
 
-namespace SimonDavies\SlimVanilla\Models;
+namespace SlimVanilla\Models;
 
 use Illuminate\Database\Eloquent\Model as Model;
 

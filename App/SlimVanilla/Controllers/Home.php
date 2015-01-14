@@ -1,8 +1,8 @@
 <?php
 
-namespace SimonDavies\SlimVanilla\Controllers;
+namespace SlimVanilla\Controllers;
 
-use SimonDavies\SlimVanilla\Models\Messages as Messages;
+use SlimVanilla\Models\Messages as Messages;
 /**
  * Class Home
  * @package SimonDavies\SlimVanilla\Controllers
