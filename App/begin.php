@@ -7,7 +7,7 @@ Dotenv::load(__DIR__ . '/../');
 $app = new \Slim\Slim();
 
 //-- Set up app name
-$app->setName('SimonDavies\\SlimVanilla');
+$app->setName('SlimVanilla');
 
 //-- load in the main app configurations
 require_once  'config.php';

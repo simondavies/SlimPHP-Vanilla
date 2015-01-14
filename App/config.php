@@ -16,12 +16,10 @@ $app->config([
 
 // Create monolog logger and store logger in container as singleton
 // (Singleton resources retrieve the same log resource definition each time)
-$app->container->singleton('log', function () {
-    $log = new \Monolog\Logger('slim-skeleton');
+$app->container->singleton('log', function () use ($app) {
+    $log = new \Monolog\Logger($app->getName());
     $log->pushHandler(new \Monolog\Handler\StreamHandler(__DIR__ . getenv('LOGS_PATH'), \Monolog\Logger::DEBUG));
     return $log;
-    //-- log example
-    //$app->log->info('Im a log example');
 });
 
 //-- views
