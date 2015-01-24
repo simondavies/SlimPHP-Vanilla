@@ -22,7 +22,26 @@ I am using laravels [Homestead](https://github.com/laravel/homestead) VM for my 
 #####Installation & Set up
 I am mainly using composer for the whole install and programming. For more details on how to set up and install Composer can be found at [getcomposer.org](https://getcomposer.org/)
 
-To be continued....
+       composer create-project simondavies/slimphp-vanilla your-project-name
+
+
+Now set up homestead, so that we point a test domain name  to our new set up, as below:
+
+First of  ssh into your homestead server (Please read the Homested docs for further information):
+
+Then run the homestead server code as below to point to your domain name to the public folder
+
+         serve mytestdomainname.app /home/vagrant/Code/path/to/public/directory
+
+Once this has been done you will then need to add your domain name to the mac host files, located at /etc/hosts
+
+Once open add the following to the host file:
+
+       192.168.10.10 mytestdomainname.app
+
+Next make a copy of the .env.example file and rename this .env.
+
+Now you should be able to type 'thttp://testvanilla.app' into the browser and the demo Slim Vanilla site should show up.
 
 
 ### License
