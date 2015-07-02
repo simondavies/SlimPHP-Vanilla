@@ -41,7 +41,7 @@ Once open add the following to the host file:
 
 Next make a copy of the .env.example file and rename this .env.
 
-Now you should be able to type 'thttp://testvanilla.app' into the browser and the demo Slim Vanilla site should show up.
+Now you should be able to type 'http://testvanilla.app' into the browser and the demo Slim Vanilla site should show up.
 
 
 ### License
