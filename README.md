@@ -1,13 +1,11 @@
-# SlimPHP Vanilla
+# SlimPHP Vanilla (v2)
 
 #### Discontinued support in favour for a new Slim PHP 3 version
 I have began a new version of this that concentrate on a bit more [PHP Slim 3 Vanilla](https://github.com/simondavies/SlimPHP3-Vanilla)
 
-A simple base app, using the PHP framework [PHP Slim](http://www.slimframework.com/) at its heart, and implementing  [Laravel's Eloquent](https://github.com/illuminate/database) ORM.
 
-#### To Do's
-* Basically, the first thing to do, is update this file (READ ME) so users can use this repo.
-* Split the view templates it to sub templates etc.
+## Details
+A simple base app, using the PHP framework [PHP Slim](http://www.slimframework.com/) at its heart, and implementing  [Laravel's Eloquent](https://github.com/illuminate/database) ORM.
 
 
 ## Official Documentation
